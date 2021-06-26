@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title> latihan form </title>
+</head>
+<body>
+	<form>
+		<table style ="margin-left:auto;margin-right:auto"border="2" cellspacing="0" cellpadding="2">
+		<tr>
+			<td><label for ="Username"> Username : </label></td>
+			<td><input type="text" id="Username"></td>
+		</tr> 
+		<br>
+		<tr>
+			<td><label for ="password"> Password : </label></td>
+			<td><input type="password" id="password"></td>
+		</tr>
+		<br>
+<!-- radio button -->
+		<tr>
+			<td><label for ="">Jenis Kelamin :</label>
+			<td colspan="2"><input type="radio" id="Pria" name="jenis kelamin"><label for="Pria">Pria</label> 
+			<input type="radio" id="Wanita" name="jenis kelamin"><label for="Wanita">Wanita</label></td> 
+		</tr>
+		<br>
+<!-- Check Box --> 
+<!-- memilih lebih dari satu -->
+		<tr>
+			<td>
+			<label for="">Hobby  :</label>
+		    </td>
+		    <td><input type="checkbox" id="Gamers"> <label for ="Gamers">Gamers</label>
+			<input type="checkbox" id="Travelling"> <label for ="Travelling">Travelling</label>
+			<input type="checkbox" id="Futsal"> <label for ="Futsal">Futsal</label> 
+			</td> 	
+		</tr>
+		<br>	
+		<tr>
+			<td><label for="Kota Asal"> Kota Asal :</label></td>
+		    <td colspan="2"> <select name="Kota Asal" id="Kota Asal">
+			<option value="Kupang">Kupang</option>
+			<option value="Soe">Soe</option>
+			<option value="Ende">Ende</option>
+	    </select>
+	    </td>
+	    </tr>
+	    <br>
+		<td colspan="2"><textarea></textarea></td>
+		<br><br>
+		<tr>
+			 <td colspan="2" align="center">
+	 		 <button type="Submit"> Submit </button>
+	  		 <button type="Refresh"> Refresh</button>
+	  		 </td>
+	    </tr>
+	    </body>
+</table>
+</form>
+</body>
+</html>
